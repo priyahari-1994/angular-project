@@ -1,0 +1,19 @@
+<p>loginpage works!</p>
+
+ <app-homepage data="{{name}}"></app-homepage>
+<span>Enter your name:</span>
+<input type="text" [(ngModel)]="name" placeholder="your name">
+<!-- <br><br> 
+<app-homepage pass="{{password}}"></app-homepage>
+
+<span>Enter your password:</span>
+<input type="password" [(ngModel)]="password" placeholder="password">
+<app-homepage ></app-homepage>
+<button type="submit">submit</button><br><br>
+<input type="text" [(ngModel)]="add">
+<app-homepage address="{{add}}"></app-homepage>
+<app-welcomepage></app-welcomepage> -->
+
+<button (click)='onHomepageButtonClicked()'>Homepage</button>
+<h1>home</h1>
+<router-outlet></router-outlet>
